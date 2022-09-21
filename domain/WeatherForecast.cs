@@ -1,4 +1,7 @@
-namespace API;
+
+namespace domain;
+using Microsoft.AspNetCore.Mvc;
+using domain;
 
 public class WeatherForecast
 {

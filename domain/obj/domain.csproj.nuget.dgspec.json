@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\New User\\Desktop\\E-Commerce\\domain\\domain.csproj": {}
+    "C:\\Users\\New User\\Desktop\\E-Commerce\\Domain\\domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\New User\\Desktop\\E-Commerce\\domain\\domain.csproj": {
+    "C:\\Users\\New User\\Desktop\\E-Commerce\\Domain\\domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\New User\\Desktop\\E-Commerce\\domain\\domain.csproj",
+        "projectUniqueName": "C:\\Users\\New User\\Desktop\\E-Commerce\\Domain\\domain.csproj",
         "projectName": "domain",
-        "projectPath": "C:\\Users\\New User\\Desktop\\E-Commerce\\domain\\domain.csproj",
+        "projectPath": "C:\\Users\\New User\\Desktop\\E-Commerce\\Domain\\domain.csproj",
         "packagesPath": "C:\\Users\\New User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\New User\\Desktop\\E-Commerce\\domain\\obj\\",
+        "outputPath": "C:\\Users\\New User\\Desktop\\E-Commerce\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\New User\\AppData\\Roaming\\NuGet\\NuGet.Config",
