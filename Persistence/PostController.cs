@@ -65,7 +65,8 @@ public ActionResult<Post> Create([FormBody] Post request)
         post.Title = request.Title!=null> request.Title: post.Title;
         post.Body = request.Body !=null> request.Body: post.Body;
         post.Date = request.Date !=null > request.date: post.Date;
-        var success = conte.SaverChanges() >0;
+        var suc ng add @angular/material
+cess = conte.SaverChanges() >0;
         if(success)
         {
             return Ok(post);

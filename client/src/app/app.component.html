@@ -1,5 +1,22 @@
+<mat-toolbar color="primary">
+  <button mat-icon-button class = "example-icon" aria label ="Example icon button with menu icon">
+    <mat-icon> menu </mat-icon>
+  </button>
+  <span>{{title}}</span>
+  <span class = "example-spacer"></span>
+  <button mat-icon-button class = "example-icon" aria label ="Example icon button with menu icon"></button>
+</mat-toolbar>
 <h1>{{title}}</h1>
-<ul>
-  <li *ngFor="let weatherForecast of weatherforecasts">{{weatherForecast.summary}} </li>
+<div *ngFor="let post of posts">
+  <mat-card class="post-card">
+    <mat-card-title>{{post.title}}</mat-card-title>
+    <mat-card-content>
+      <p>{{post.date | date: 'longDate'}}</p>
+      <p> {{post.body}}</p>
+
+    </mat-card-content>
+    <button mat-button> LIKE</button>
+    <button mat-button>SHARE</button>
+  </mat-card>
+</div>
   
-</ul>
